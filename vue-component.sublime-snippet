@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<template lang="${1:pug}">
+  .${TM_FILENAME/(\w+)\.vue/\1/}
+</template>
+
+<script>
+export default {
+  name: '${TM_FILENAME/(\w+)\.vue/\1/}',
+}
+</script>
+
+<style lang="${2:sass}" scoped>
+</style>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.vue</scope>
+</snippet>
